@@ -1,35 +1,34 @@
 import {
-    IonPage,
-    IonHeader,
-    IonItem,
-    IonToolbar,
-    IonTitle,
-    IonContent,
-    IonList,
-    IonToggle,
-    IonInput,
-    IonText,
-    IonButton,
-  } from '@ionic/react';
+  IonPage,
+  IonHeader,
+  IonItem,
+  IonToolbar,
+  IonTitle,
+  IonContent,
+  IonList,
+  IonToggle,
+  IonInput,
+  IonText,
+  IonButton,
+} from '@ionic/react';
 
 const Login = () => {
-    
-    return (
-        <IonPage>
-        {/* <IonHeader class='display:none'>
+  return (
+    <IonPage>
+      <IonHeader class='display:none'>
           <IonToolbar>
             <IonTitle>logIn Page</IonTitle>
           </IonToolbar>
-        </IonHeader> */}
-        <IonContent>
-          <Ui/>
-        </IonContent>
-      </IonPage>
-    );
-  };
-  const Ui =()=>{
-    return(
-        <IonList>
+        </IonHeader>
+      <IonContent>
+        <Ui />
+      </IonContent>
+    </IonPage>
+  );
+};
+const Ui = () => {
+  return (
+    <IonList>
       <IonItem>
         <IonInput labelPlacement="floating" value="">
           <div slot="label">
@@ -38,7 +37,7 @@ const Login = () => {
         </IonInput>
       </IonItem>
       <IonItem>
-        <IonInput labelPlacement="floating" value="" type='password'>
+        <IonInput labelPlacement="floating" value="" type="password">
           <div slot="label">
             كلمة المرور <IonText color="danger"></IonText>
           </div>
@@ -46,7 +45,7 @@ const Login = () => {
       </IonItem>
       <IonButton shape="round">تسجيل الدخول</IonButton>
     </IonList>
-    )
-  }
-  
-  export default Login;
+  );
+};
+
+export default Login;
