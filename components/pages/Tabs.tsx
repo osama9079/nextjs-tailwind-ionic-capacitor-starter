@@ -15,6 +15,10 @@ import ListDetail from './ListDetail';
 import Settings from './Settings';
 
 const Tabs = () => {
+  let i = 2;
+  if (i > 0) {
+    return <Redirect to="/login" />;
+  }
   return (
     <IonTabs>
       <IonRouterOutlet>

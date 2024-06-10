@@ -36,7 +36,7 @@ const Lists = () => {
   return (
     <IonPage>
       <IonHeader translucent={true}>
-        <IonToolbar>
+        <IonToolbar hidden={true}>
           <IonTitle>Lists</IonTitle>
         </IonToolbar>
       </IonHeader>

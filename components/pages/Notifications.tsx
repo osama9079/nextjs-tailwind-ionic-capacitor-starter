@@ -16,6 +16,8 @@ import { selectNotifications } from '../../store/selectors';
 
 import { close } from 'ionicons/icons';
 import { type NotificationItem } from '../../mock';
+//import { App as CapacitorApp } from '@capacitor/app';
+//import React, { useState, useEffect, useCallback } from 'react';
 
 const NotificationItem = ({
   notification,
